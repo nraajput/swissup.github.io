@@ -184,7 +184,7 @@ In case if you've lost original homepage content, you can get it below:
 </div>
 <div class="row promo-home-content">
     <div class="col-md-8">
-        <div class="tab-container">
+        <div class="">
             {{widget type="highlight/product_new" title="New arrivals" products_count="6" column_count="3" template="tm/highlight/product/grid.phtml" class_name="highlight-new" show_page_link="1" page_title="See all new products &raquo;"}}
             {{widget type="highlight/product_special" title="Sale" products_count="6" column_count="3" template="tm/highlight/product/grid.phtml" class_name="highlight-special" show_page_link="1" page_title="See all on sale products &raquo;"}}
             {{widget type="highlight/product_attribute_yesno" attribute_code="coming_soon" title="Coming soon" products_count="6" column_count="3" template="tm/highlight/product/grid.phtml" class_name="highlight-attrbiute-coming_soon"}}
